@@ -1,1 +1,1 @@
-This repo is a learning cure to the world of Python
+# :snake: This repo is a learning curve to the world of Python
