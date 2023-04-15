@@ -13,6 +13,7 @@ if __name__ == "__main__":
     a.execute("SELECT * FROM states WHERE name LIKE '{}' ORDER BY id ASC".format(sys.argv[4]))
     states = a.fetchall()
     for state in states:
+        if state[1] == sys.argv[4]:
             print(state)
     a.close()
     db.close()
